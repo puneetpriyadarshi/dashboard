@@ -1,0 +1,12 @@
+.common-structure {
+  display: grid;
+  grid-template-columns: 270px auto;
+}
+.skeleton {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}

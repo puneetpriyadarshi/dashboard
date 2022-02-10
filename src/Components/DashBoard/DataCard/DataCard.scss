@@ -1,0 +1,41 @@
+.card-with-data {
+  display: flex;
+  .data-card {
+    width: 210px;
+    height: auto;
+    border-radius: 7px;
+    background-color: rgb(250, 228, 228);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 15px 0;
+    .data-card-name {
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 5px;
+    }
+    .data-card-number {
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .data-card-value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+    .increase-value {
+      color: green;
+    }
+    .decrease-value {
+      color: red;
+    }
+  }
+  .data-card-positive {
+    background-color: #e3f5ea;
+  }
+}
